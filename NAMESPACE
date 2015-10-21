@@ -1,0 +1,16 @@
+# Export all names
+export(
+	"PanNETsubtypesmRNA", 
+	"PanNETsubtypesmRNAVal", 
+	"PanNETsubtypesmicRNA", 
+	"PanNETsubtypesmicRNAVal", 
+	"enrich", 
+	"CrossSpeciesCombat", 
+	"MLPvsother", 
+	"screenExpr", 
+	"nmfconsensus"
+)
+
+# Import all packages listed as Imports or Depends
+import("siggenes")
+importFrom(sva, ComBat)
